@@ -1,0 +1,28 @@
+iverilog -o test_tb.vvp test_tb.v
+vvp test_tb.vvp 
+gtkwave
+# then open new tab, open the .vcd file and select module to insert signal
+
+
+iverilog -o picorv32_tb.vvp picorv32_tb.v
+vvp picorv32_tb.vvp 
+gtkwave
+
+iverilog -o pico3june_tb.vvp pico3june_tb.v
+vvp pico3june_tb.vvp
+gtkwave
+
+iverilog -o pico8june_tb.vvp pico8june_tb.v
+vvp pico8june_tb.vvp
+
+iverilog -o pico9june_tb.vvp pico9june_tb.v
+vvp pico9june_tb.vvp
+
+iverilog -o pico14june_tb.vvp pico14june_tb.v
+vvp pico14june_tb.vvp
+
+iverilog -o pico15june_tb.vvp pico15june_tb.v
+vvp pico15june_tb.vvp
+
+iverilog -o pico18june_tb.vvp pico18june_tb.v
+vvp pico18june_tb.vvp
