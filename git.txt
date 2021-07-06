@@ -1,0 +1,28 @@
+git init
+git add .
+git commit -m "first commit"
+
+git remote add origin https://github.com/prafulla8/ibex
+git push --set-upstream origin master
+git add .
+git commit -m "second commit"
+
+
+git clone <repository_url>
+git branch -a
+git checkout <name_of_branch>
+
+git init
+git remote add origin https://github.com/prafulla8/riscv.git
+
+git add .
+git commit -m "july4 commit"
+git push --set-upstream origin main
+git push origin main
+
+#to pull changes in your local repo from github
+git pull origin main
+
+git config --global user.email "pprafulla8@gmail.com"
+git config --global user.name "prafulla8"
+
